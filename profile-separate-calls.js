@@ -21,6 +21,7 @@
 
   console.assert(obj1, 'missing first object');
   console.assert(obj2, 'missing second object');
+  //console.assert(obj2, 'missing second object');
 
   var m1 = obj1[methodName1];
   console.assert(typeof m1 === 'function', 'cannot find first method ' + methodName1);
